@@ -1,8 +1,8 @@
 import numpy as np
 
-arr1 = np.array([[1, 2], [3, 4]])
+arr1 = np.array([1, 2, 3])
 
-arr2 = np.array([[5, 6], [7, 8]])
+arr2 = np.array([4, 5, 6])
 
 # arr3 = np.concatenate((arr1, arr2),axis=1)
 
@@ -15,15 +15,15 @@ arr2 = np.array([[5, 6], [7, 8]])
 arr = np.stack((arr1, arr2), axis=0)
 print(arr)
 
-print()
+# print()
 
-x = np.hstack((arr1,arr2))
-print(x)
+# x = np.hstack((arr1,arr2))
+# print(x)
 
-print()
+# print()
 
-y = np.vstack((arr1,arr2))
-print(y)
+# y = np.vstack((arr1,arr2))
+# print(y)
 
-z = np.dstack((arr1,arr2))
-print(z)
+# z = np.dstack((arr1,arr2))
+# print(z)
